@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.login-container{
+	margin-top: 8%;
+	font-family: 'Montserrat', sans-serif;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+* {
+	box-sizing: border-box;
+}
+h3 {
+	font-weight: bold;
+	margin: 0;
+}
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+span {
+	font-size: 12px;
+}
+.sign-up-container {
+	width: 50%;
+	z-index: 1;
+}
+.form-xd {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 20px;
+	height: 100%;
+	text-align: center;
+}
+.input-style {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+.btnSubmit {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+    color: #FFFFFF;
+    padding: 1.5%;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+button:active {
+	transform: scale(0.95);
+}
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+	
+}
+.social-container {
+	margin: 20px 0;
+}
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+}
+.sign-in-container {
+	left: 0;
+	width: 50%;
+	z-index: 2;
+}
+.login-form-1{
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding: 5%;
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.login-form-2{
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding: 5%;
+    background: #FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+}
+.login-form-2 h3{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+.login-container form{
+    padding: 4%;
+}
+.login-form-1 .btnSubmit{
+    color: #fff;
+    background-color: #FF4B2B;
+}
+.login-form-2 .btnSubmit{
+    background-color: #fff;
+    color: #FF416C;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
